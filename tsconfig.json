@@ -30,6 +30,9 @@
       ],
       "@Menubar/*": [
         "src/components/Menubar/*"
+      ],
+      "@Create_Request_images/*": [
+        "src/assets/Create_Request_images/*"
       ]
     }
   },
