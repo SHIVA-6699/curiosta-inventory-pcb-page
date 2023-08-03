@@ -1,9 +1,8 @@
-import ActivityCard from "@/components/ActivityCard";
 import BottomNavbar from "@/components/Navbar/BottomNavbar";
 import TopNavbar from "@/components/Navbar/TopNavbar";
 import SearchInput from "@/components/SearchInput";
 import Typography from "@/components/Typography";
-SearchInput
+import { Link, route } from "preact-router";
 function Return()
 {
     return(
@@ -35,7 +34,7 @@ function Return()
            
             </div>
             <button className="p-2 ml-10 m-6 w-28 rounded-xl text-white" style={{"background":"#1D747E"}}>view details</button>
-              <button className="p-2 m-6  w-24  rounded-xl text-white" style={{"background":"#1D747E"}}>Return</button>
+              <button className="p-2 m-6  w-24  rounded-xl text-white" style={{"background":"#1D747E"}} ><Link href="/PCB_Components">Return</Link></button>
 
             </div>
          {/* card 2 */}

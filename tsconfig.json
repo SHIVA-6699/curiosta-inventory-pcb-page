@@ -22,17 +22,17 @@
       "@components/*": [
         "src/components/*"
       ],
-      "@ActivityCard/*": [
-        "src/components/ActivityCard/*"
+      "@cartincrese/*": [
+        "src/components/cartincrese/*"
       ],
-      "@IssuedItems/*": [
-        "src/components/IssuedItems/*"
+      "@CartIncrease/*": [
+        "src/components/CartIncrease/*"
       ],
-      "@Menubar/*": [
-        "src/components/Menubar/*"
+      "@CartCount/*": [
+        "src/components/CartCount/*"
       ],
-      "@Create_Request_images/*": [
-        "src/assets/Create_Request_images/*"
+      "@BottomCart/*": [
+        "src/components/BottomCart/*"
       ]
     }
   },
