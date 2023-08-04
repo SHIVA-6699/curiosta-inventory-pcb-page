@@ -8,6 +8,7 @@ import Welcome from "@pages/Welcome";
 import Return from "@pages/Return";
 import Router, { Route } from "preact-router";
 import PCB from "@pages/PCB_Components";
+import Cart from "@pages/Cart";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/create-requests" component={Request} />
       <Route path="/Return" component={Return}/>
       <Route path="/PCB_Components" component={PCB}/>
+      <Route path="/Cart" component={Cart}/>
     </Router>
   );
 };

@@ -22,7 +22,7 @@ const  PCB = ()=>
       <SearchInput />
         <Typography size="h6/normal" className={"text-center font-semibold"}>PCB Components</Typography>
         
-        <div className={"grid grid-cols-1 m-5 gap-y-5"}>
+        <div className={"grid grid-cols-1 m-5 gap-y-5 bg-neutral-50"}>
             <div className={"grid grid-cols-2 justify-items-center"}>
 
         <div className={"flex "}>
@@ -100,7 +100,6 @@ const  PCB = ()=>
             </div>
          <p className={"text-end px-9 sm:px-24 md:px-40 text-blue-400"}>Issue request</p>
         </div>
-
 </div>
 <BottomCart></BottomCart>
 </>
